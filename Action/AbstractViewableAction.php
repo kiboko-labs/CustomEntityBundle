@@ -81,7 +81,6 @@ abstract class AbstractViewableAction extends AbstractAction
     {
         $vars = [
             'customEntityName' => $this->configuration->getName(),
-            'baseTemplate'     => $this->options['base_template']
         ];
 
         if ($this->configuration->hasAction('index')) {
@@ -99,6 +98,5 @@ abstract class AbstractViewableAction extends AbstractAction
         parent::setDefaultOptions($resolver);
 
         $resolver->setRequired(['template']);
-        $resolver->setDefaults(['base_template' => 'PimEnrichBundle::layout.html.twig']);
     }
 }

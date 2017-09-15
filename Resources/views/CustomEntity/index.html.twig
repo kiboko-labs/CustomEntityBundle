@@ -4,7 +4,6 @@
 {% block content %}
 
     {% set title = (customEntityName ~ ".overview")|trans %}
-    {% oro_title_set({params:{'%title%': title}}) %}
 
     {% set buttons %}
         {% if createUrl|default(false) %}

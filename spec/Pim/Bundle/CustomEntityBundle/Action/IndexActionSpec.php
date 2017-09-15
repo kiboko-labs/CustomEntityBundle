@@ -124,7 +124,6 @@ class IndexActionSpec extends ObjectBehavior
             [
                 'quick_create' => true,
                 'template' => 'template',
-                'base_template' => 'base_template'
             ]
         );
         $configuration->hasAction('create')->willReturn(true);
@@ -137,7 +136,6 @@ class IndexActionSpec extends ObjectBehavior
                 'createUrl'        => 'create_route?&cr_param1=value1',
                 'quickCreate'      => true,
                 'customEntityName' => 'entity',
-                'baseTemplate'     => 'base_template',
                 'indexUrl'         => 'pim_customentity_index?&customEntityName=entity',
                 'pre_render'       => true
             ]

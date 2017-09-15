@@ -1,3 +1,4 @@
+pim_menu.tab.reference_data: Reference data
 pim_custom_entity:
     export.csv.entity_name:
         label: Reference data name
