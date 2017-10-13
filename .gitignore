@@ -1,4 +1,6 @@
+!docs/examples/bin
 bin
 vendor
 composer.phar
 composer.lock
+docker-compose.yml
